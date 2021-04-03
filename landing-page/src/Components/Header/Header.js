@@ -10,7 +10,7 @@ const header = () => (
         <Container>
             <Row className={classes.HeaderRow}>
                 <Col>
-                    Hi
+                    Hello
                 </Col>
             </Row>
         </Container>
