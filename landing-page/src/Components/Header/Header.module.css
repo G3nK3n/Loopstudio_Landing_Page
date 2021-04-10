@@ -4,7 +4,7 @@
     height: 100%;
     position: absolute;
     background-size: cover;
-    
+
     padding-left: 150px;
     padding-top: 60px;
     padding-right: 150px;
@@ -12,10 +12,72 @@
 
 .Links {
     float: right;
+    margin-top:3px;
 }
 
 .Links a {
     margin: 0 20px;
     color: white;
-    
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 1px;
 }
+
+.Links a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Links :Hover with ::After, Try using Div's next time */
+.Links a:hover::after {
+    content:" ";
+    width: 30px;
+    border-bottom: 1px solid white;
+    position: absolute;
+    top:40px;
+}
+
+.About:hover::after {
+    margin-left:-37px !important;
+}
+
+.Careers:hover::after {
+    margin-left:-45px !important;
+}
+
+.Events:hover::after {
+    margin-left:-43px !important;
+}
+
+.Products:hover::after {
+    margin-left:-50px !important;
+}
+
+.Support:hover::after {
+    margin-left:-46px !important;
+}
+
+
+
+
+
+
+
+/* THIS SECTION IS FOR THE HEADR BODY */
+
+.OuterHeaderBody {
+    padding-right: 50%;
+}
+
+.HeaderBody {
+    border: 1px solid white;
+    margin-top: 200px;
+    padding: 20px 0px 20px 30px;
+}
+
+.HeaderBody h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 100;
+}
+

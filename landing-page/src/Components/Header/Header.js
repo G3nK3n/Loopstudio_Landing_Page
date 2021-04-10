@@ -14,15 +14,23 @@ const header = () => (
                 <Col>
                     <div>
                         <a href="#"><img src={Img1} /></a>
-                        <div className={classes.Links}>
-                            <a href="#">About</a>
-                            <a href="#">Careers</a>
-                            <a href="#">Events</a>
-                            <a href="#">Products</a>
-                            <a href="#">Support</a> 
+                        <div className={classes.Links}> 
+                            <a className={classes.About} href="#">About</a>          
+                            <a className={classes.Careers} href="#">Careers</a>                        
+                            <a className={classes.Events} href="#">Events</a>                 
+                            <a className={classes.Products} href="#">Products</a>
+                            <a className={classes.Support} href="#">Support</a>
                         </div>
                     </div>
-                    
+                </Col>
+            </Row>
+            <Row className={classes.HeaderBodyRow}>
+                <Col>
+                    <div className={classes.OuterHeaderBody}>
+                        <div className={classes.HeaderBody}>
+                            <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+                        </div>
+                    </div>
                 </Col>
             </Row>
         </Container>
