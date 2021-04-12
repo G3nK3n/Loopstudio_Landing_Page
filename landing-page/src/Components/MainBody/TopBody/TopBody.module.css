@@ -1,4 +1,30 @@
 .BodyContainer {
     margin-top:120px;
-    margin-bottom:120px;
+}
+
+.BodyContainer img {
+    position: absolute;
+}
+
+.TopBodyText {
+    position: relative;
+    padding-top:230px;
+    padding-left:580px;
+}
+
+.InnerTopBodyText {
+    background:white;
+    padding-left:80px;
+    padding-top:53px;
+}
+
+.InnerTopBodyText h1 {
+    font-weight:300;
+    font-size:40px;
+    letter-spacing: 4px;
+}
+
+.InnerTopBodyText p {
+    margin-top:25px;
+    color: grey;
 }
