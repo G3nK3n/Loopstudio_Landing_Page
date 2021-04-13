@@ -9,9 +9,13 @@ const bottombody = () => (
         <Container>
             <Row>
                 <Col>
-                    <div>
-                        <h1>Our Creations</h1>
-                        <button>See All</button>
+                    <div className={classes.OurCreationTitle}>
+                        <h1>OUR CREATIONS</h1>
+                    </div>
+                </Col>
+                <Col>
+                    <div className={classes.SeeAllButton}>
+                        <button>SEE ALL</button>
                     </div>
                 </Col>
             </Row>
