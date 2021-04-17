@@ -16,3 +16,41 @@
 .OurCreationTitle h1 {
     font-weight:100;
 }
+
+.OurCreationTitle {
+    margin-bottom: 60px;
+}
+
+.ImageList {
+    display: flex;
+    list-style: none;
+    padding: inherit;
+
+}
+
+.ImageList h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.DivForList {
+    width: 256px;
+    height: 450px;
+    margin-right: 29px;
+}
+
+.ImageList img {
+    position: absolute;
+}
+
+.ImageList h2 {
+    position: relative;
+    color: white;
+    padding-top:360px;  
+    font-size:30px;
+}
+
+.ListText {
+    padding-left:34px;
+    padding-right:87px
+}
