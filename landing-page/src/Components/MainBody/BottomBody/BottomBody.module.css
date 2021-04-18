@@ -25,7 +25,15 @@
     display: flex;
     list-style: none;
     padding: inherit;
+}
 
+.ImageList a {
+    color:white;
+}
+
+
+.ImageList li {
+    padding-right: 29px;
 }
 
 .ImageList h2 {
@@ -36,21 +44,37 @@
 .DivForList {
     width: 256px;
     height: 450px;
-    margin-right: 29px;
 }
 
 .ImageList img {
     position: absolute;
 }
 
+/* To change the text color while hovering the image, changed the color of the link to white instead of h2 itself. */
+
 .ImageList h2 {
     position: relative;
-    color: white;
-    padding-top:360px;  
     font-size:30px;
 }
 
 .ListText {
     padding-left:34px;
-    padding-right:87px
+    padding-right:87px;
+    padding-top:360px;
 }
+
+
+/* Hover area */
+.ImageList a:hover {
+    text-decoration: none;
+    /* Figure out what type of color to add when hovering later */
+    color:white;
+
+}
+
+.DivForList:hover {
+    opacity: 0.5;
+}
+
+
+
