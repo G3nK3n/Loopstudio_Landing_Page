@@ -76,3 +76,15 @@
     font-weight: 100;
 }
 
+
+/* MEDIA QUERIES SECTION */
+
+@media (max-width: 1600px) {
+    .OuterHeaderBody {
+        padding-right: 45%;
+    }
+
+    .HeaderBody h1 {
+        font-size: 80px;
+    }
+}

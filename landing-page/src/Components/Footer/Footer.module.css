@@ -95,3 +95,11 @@
     float: right;
     margin-top:15px;
 }
+
+/* MEDIA QUERIES SECTION */
+
+@media (max-width: 1600px) {
+    .OutsideFooter {
+        margin: 60px 9%;
+    }
+}
