@@ -88,3 +88,26 @@
         font-size: 57px;
     }
 }
+
+@media (max-width: 1440px) {
+    .OuterHeaderBody {
+        padding-right: 49%;
+    }
+
+    .HeaderBody {
+        padding-right: 95px;
+        margin-top: 150px;
+    }
+
+    .HeaderBody h1 {
+        font-size: 46px;
+    }
+
+    .Links a {
+        margin: 0 13px;
+    }
+
+    .HeaderPage {
+        height: 542px;
+    }
+}
