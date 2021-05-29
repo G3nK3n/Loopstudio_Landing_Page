@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './Header.module.css';
 import Img1 from '../../logo.svg';
 
-
+import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -11,7 +11,21 @@ const header = () => (
     <div className={classes.HeaderPage}>
         <Container fluid>
             <Row>
-                <Col>
+                {/* Visible on Medium screens and below */}
+                <Col className="d-lg-none d-xl-none">
+                    <div className={classes.CollapseButton}>
+                        <a href="#"><img src={Img1} /></a>
+                        
+                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Collapse id="basic-navbar-nav">
+
+                        </Navbar.Collapse>   
+                        
+                    </div>
+                </Col>
+
+                {/* Visible only with Large screens and above*/}
+                <Col className="d-none d-lg-block">
                     <div>
                         <a href="#"><img src={Img1} /></a>
                         <div className={classes.Links}> 
