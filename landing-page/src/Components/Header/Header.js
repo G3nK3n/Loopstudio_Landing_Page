@@ -3,6 +3,7 @@ import classes from './Header.module.css';
 import Img1 from '../../logo.svg';
 
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,13 +15,19 @@ const header = () => (
                 {/* Visible on Medium screens and below */}
                 <Col className="d-lg-none d-xl-none">
                     <div className={classes.CollapseButton}>
-                        <a href="#"><img src={Img1} /></a>
-                        
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                        <Navbar.Collapse id="basic-navbar-nav">
-
-                        </Navbar.Collapse>   
-                        
+                        <Navbar variant="dark" expand="lg">
+                            <a href="#"><img src={Img1} /></a>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                            <Navbar.Collapse id="basic-navbar-nav">
+                                <div className={classes.Links}> 
+                                    <a className={classes.About} href="#">About</a>          
+                                    <a className={classes.Careers} href="#">Careers</a>                        
+                                    <a className={classes.Events} href="#">Events</a>                 
+                                    <a className={classes.Products} href="#">Products</a>
+                                    <a className={classes.Support} href="#">Support</a>
+                                </div>
+                            </Navbar.Collapse>
+                        </Navbar>   
                     </div>
                 </Col>
 

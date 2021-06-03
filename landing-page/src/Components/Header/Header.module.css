@@ -115,11 +115,22 @@
 @media (max-width: 992px) {
     .HeaderPage {
         padding-left: 20px;
+        padding-right: 0;
     }
 
     .CollapseButton button{
-        background-color: white;
+        border:none;
         float: right;
+    }
+
+    .Links {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .Links a {
+        margin: 0 60px;
     }
 
 }
