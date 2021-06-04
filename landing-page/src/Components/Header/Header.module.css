@@ -133,4 +133,9 @@
         margin: 0 60px;
     }
 
+    .About:hover::after, .Careers:hover::after, .Events:hover::after, .Products:hover::after, .Support:hover::after {
+        margin-top: 75px;
+        
+    }
+
 }
