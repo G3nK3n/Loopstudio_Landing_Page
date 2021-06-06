@@ -138,4 +138,22 @@
         
     }
 
+    .OuterHeaderBody {
+        padding-right: 31px;
+        padding-left: 16px;
+    }
+
+    .HeaderBody {
+        margin-top: 70px;
+    }
+
+    .HeaderBody h1 {
+        font-size: 69px;
+    }
+
+    .HeaderPage {
+        height: 647px;
+        
+    }
+
 }

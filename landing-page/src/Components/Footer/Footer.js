@@ -14,34 +14,36 @@ import Instagram from '../../icon-instagram.svg';
 const footer = () => (
     <div className={classes.OutsideFooter}>
         <Container>
-            <Row>
-                <Col>
-                    <div>
-                        <a href="#"><img className={classes.Logo} src={Img1} /></a>
-                        <div className={classes.Links}> 
-                            <a className={classes.About} href="#">About</a>          
-                            <a className={classes.Careers} href="#">Careers</a>                        
-                            <a className={classes.Events} href="#">Events</a>                 
-                            <a className={classes.Products} href="#">Products</a>
-                            <a className={classes.Support} href="#">Support</a>
+            <div className="d-none d-lg-block">
+                <Row>
+                    <Col>
+                        <div>
+                            <a href="#"><img className={classes.Logo} src={Img1} /></a>
+                            <div className={classes.Links}> 
+                                <a className={classes.About} href="#">About</a>          
+                                <a className={classes.Careers} href="#">Careers</a>                        
+                                <a className={classes.Events} href="#">Events</a>                 
+                                <a className={classes.Products} href="#">Products</a>
+                                <a className={classes.Support} href="#">Support</a>
+                            </div>
                         </div>
-                    </div>
-                </Col>
-                <Col>
-                    <div className={classes.OuterSocialMediaLinks}>
-                        <div className={classes.SocialMediaLinks}>
-                            <a href="#"><img src={Facebook} /></a>
-                            <a href="#"><img src={Twitter} /></a>
-                            <a href="#"><img src={Pinterest} /></a>
-                            <a className={classes.Instagram} href="#"><img src={Instagram} /></a>
+                    </Col>
+                    <Col>
+                        <div className={classes.OuterSocialMediaLinks}>
+                            <div className={classes.SocialMediaLinks}>
+                                <a href="#"><img src={Facebook} /></a>
+                                <a href="#"><img src={Twitter} /></a>
+                                <a href="#"><img src={Pinterest} /></a>
+                                <a className={classes.Instagram} href="#"><img src={Instagram} /></a>
+                            </div>
+                            
+                            <div className={classes.Copyright}>
+                                <p>&#169;2021 Loopstudios. All rights reserved.</p>
+                            </div>
                         </div>
-                        
-                        <div className={classes.Copyright}>
-                            <p>&#169;2021 Loopstudios. All rights reserved.</p>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
+                    </Col>
+                </Row>
+            </div>
         </Container>
     </div>
 );

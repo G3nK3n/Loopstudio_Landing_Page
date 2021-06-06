@@ -17,111 +17,113 @@ import Img8 from '../../../image-soccer-team.jpg';
 const bottombody = () => (
     <div className={classes.BottomBodyContainer}>
         <Container>
-            <Row>
-                <Col>
-                    <div className={classes.OurCreationTitle}>
-                        <h1>OUR CREATIONS</h1>
-                    </div>
-                </Col>
-                <Col>
-                    <div className={classes.SeeAllButton}>
-                        <button>SEE ALL</button>
-                    </div>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <div>
-                        <ul className={classes.ImageList}>                           
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img2} />
-                                        <div>
-                                            <div className={classes.ListText}>
-                                                <h2>DEEP EARTH</h2>
+            <div className="d-none d-lg-block">
+                <Row>
+                    <Col>
+                        <div className={classes.OurCreationTitle}>
+                            <h1>OUR CREATIONS</h1>
+                        </div>
+                    </Col>
+                    <Col>
+                        <div className={classes.SeeAllButton}>
+                            <button>SEE ALL</button>
+                        </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <div>
+                            <ul className={classes.ImageList}>                           
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img2} />
+                                            <div>
+                                                <div className={classes.ListText}>
+                                                    <h2>DEEP EARTH</h2>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>                                                  
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img6} />
-                                        <div className={classes.ListText}>
-                                            <h2>NIGHT ARCADE</h2>
+                                    </a>
+                                </li>                                                  
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img6} />
+                                            <div className={classes.ListText}>
+                                                <h2>NIGHT ARCADE</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>                                                   
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img8} />
-                                        <div className={classes.ListText}>
-                                            <h2>SOCCER TEAM VR</h2>
+                                    </a>
+                                </li>                                                   
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img8} />
+                                            <div className={classes.ListText}>
+                                                <h2>SOCCER TEAM VR</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img5} />
-                                        <div className={classes.ListText}>
-                                            <h2>THE GRID</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img5} />
+                                            <div className={classes.ListText}>
+                                                <h2>THE GRID</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
 
-                        <ul className={classes.ImageList}>
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img4} />
-                                        <div className={classes.ListText}>
-                                            <h2>FROM UP ABOVE VR</h2>
+                            <ul className={classes.ImageList}>
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img4} />
+                                            <div className={classes.ListText}>
+                                                <h2>FROM UP ABOVE VR</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img7} />
-                                        <div className={classes.ListText}>
-                                            <h2>POCKET BOREALIS</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img7} />
+                                            <div className={classes.ListText}>
+                                                <h2>POCKET BOREALIS</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img1} />
-                                        <div className={classes.ListText}>
-                                            <h2>THE CURIOSITY</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img1} />
+                                            <div className={classes.ListText}>
+                                                <h2>THE CURIOSITY</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div className={classes.DivForList}>
-                                        <img src={Img3} />
-                                        <div className={classes.ListText}>
-                                            <h2>MAKE IT FISHEYE</h2>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <div className={classes.DivForList}>
+                                            <img src={Img3} />
+                                            <div className={classes.ListText}>
+                                                <h2>MAKE IT FISHEYE</h2>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </Col>
-            </Row>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
         </Container>
     </div>
 );

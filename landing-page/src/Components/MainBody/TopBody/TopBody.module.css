@@ -28,3 +28,30 @@
     margin-top:25px;
     color: grey;
 }
+
+/* MEDIA qUERIES SECTION */
+
+@media (max-width: 992px) {
+    .BodyContainer img {
+        position: relative;
+    }
+
+    .TopBodyText {
+        padding-top:50px;
+        padding-left:50px;
+        padding-right:50px;
+        text-align: center;
+    }
+
+    .TopBodyText h1 {
+        font-weight:100;
+        font-size:4rem;
+    }
+
+    .TopBodyText p {
+        line-height:2;
+        font-size: 20px;
+        padding:0 57px;
+        margin-top:20px;
+    }
+}
