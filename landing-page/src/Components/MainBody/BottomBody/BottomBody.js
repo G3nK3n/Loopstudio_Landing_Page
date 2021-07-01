@@ -13,10 +13,34 @@ import Img6 from '../../../image-night-arcade.jpg';
 import Img7 from '../../../image-pocket-borealis.jpg';
 import Img8 from '../../../image-soccer-team.jpg';
 
+import Img_1 from '../../../image-curiosity-mobile.jpg';
+import Img_2 from '../../../image-deep-earth-mobile.jpg';
+import Img_3 from '../../../image-fisheye-mobile.jpg';
+import Img_4 from '../../../image-from-above-mobile.jpg';
+import Img_5 from '../../../image-grid-mobile.jpg';
+import Img_6 from '../../../image-night-arcade-mobile.jpg';
+import Img_7 from '../../../image-pocket-borealis-mobile.jpg';
+import Img_8 from '../../../image-soccer-team-mobile.jpg';
+
+
+
+
+
 
 const bottombody = () => (
     <div className={classes.BottomBodyContainer}>
         <Container>
+
+            <div className="d-lg-none d-xl-none">
+                <Row>
+                    <Col>
+                        <div className={classes.OurCreationTitle}>
+                            <h1>OUR CREATIONS</h1>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+
             <div className="d-none d-lg-block">
                 <Row>
                     <Col>

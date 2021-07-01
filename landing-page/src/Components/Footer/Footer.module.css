@@ -112,4 +112,12 @@
     .OuterSocialMediaLinks {
         padding-left: 226px;
     }
+
+
+}
+
+@media (max-width: 1200px) {
+    .OuterSocialMediaLinks {
+        padding-left: 88px;
+    }
 }

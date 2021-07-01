@@ -81,6 +81,41 @@
 /* MEDIA QUERIES SECTION */
 
 @media (max-width: 1600px) {
+    .OurCreationTitle h1 {
+        text-align:center;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .BottomBodyContainer {
+        margin-top: 100px;
+        margin-left: -100px
+    }
     
+    .DivForList {
+        width: 227px;
+    }
+
+    .ListText {
+        padding-top: 371px;
+    }
+
+    .ImageList h2 {
+        font-size: 23px;
+    }
+
+    .ImageList li {
+        padding-right: 25px;
+    }
+
+    .ImageList img {
+        width: 252px;
+    }
+
+    .OurCreationTitle h1 {
+        font-size: 45px;
+    }
+
 }
 
