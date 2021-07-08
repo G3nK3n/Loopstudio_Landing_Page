@@ -39,6 +39,60 @@ const bottombody = () => (
                         </div>
                     </Col>
                 </Row>
+                <Row>
+                    <Col>
+                        <div className={classes.Mobile_Image}>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>Deep Earth</h2>
+                                </div>
+                                <img src={Img_2}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>Night Arcade</h2>
+                                </div>
+                                <img src={Img_6}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>Soccer Team VR</h2>
+                                </div>
+                                <img src={Img_8}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>The Grid</h2>
+                                </div>
+                                <img src={Img_5}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>From Up Above VR</h2>
+                                </div>
+                                <img src={Img_4}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>Pocket Borealis</h2>
+                                </div>
+                                <img src={Img_7}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>The Curiosity</h2>
+                                </div>
+                                <img src={Img_1}></img>
+                            </div>
+                            <div>
+                                <div className={classes.Mobile_Text}>
+                                    <h2>Make It Fisheye</h2>
+                                </div>
+                                <img src={Img_3}></img>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
             </div>
 
             <div className="d-none d-lg-block">

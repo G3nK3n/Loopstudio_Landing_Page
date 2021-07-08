@@ -44,6 +44,18 @@ const footer = () => (
                     </Col>
                 </Row>
             </div>
+
+            <div className="d-lg-none d-xl-none">
+                <div className={classes.InnerFooter}>
+                    <Row>
+                        <Col>
+                            <div>
+                                <a href="#"><img className={classes.Logo} src={Img1} /></a>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
         </Container>
     </div>
 );

@@ -116,6 +116,28 @@
     .OurCreationTitle h1 {
         font-size: 45px;
     }
-    
+}
+
+@media (max-width: 992px) {
+    .BottomBodyContainer {
+        margin-left: 0px;
+    }
+
+    .Mobile_Image img{
+        margin-bottom: 50px;
+    }
+
+    .Mobile_Text {
+        position: absolute;
+        margin-top: 150px;
+        padding-left: 30px;
+        padding-right:525px;
+    }
+
+    .Mobile_Text h2 {
+        font-weight: 100;
+        color: white;
+        text-transform: uppercase;
+    }
 }
 

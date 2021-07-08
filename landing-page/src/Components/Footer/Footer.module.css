@@ -121,3 +121,14 @@
         padding-left: 88px;
     }
 }
+
+@media (max-width: 992px) {
+    .OutsideFooter {
+        margin: 0px;
+        background: white;
+    }
+
+    .InnerFooter {
+        background: black;
+    }
+}
